@@ -721,7 +721,9 @@ namespace rokhan.inc
 					// if laa letter
 					if(laaletter) {
 						// mark characters to delete with false
-						chardata2[(charAL[(x-1)].i)] = new chardata(null, chardata2[i].level, chardata2[i].type, chardata2[i].sor, chardata2[i].eor);
+						//fixing la
+                        			chardata2[i] = new chardata("65166", chardata2[i].level, chardata2[i].type, chardata2[i].sor, chardata2[i].eor);
+						//chardata2[(charAL[(x-1)].i)] = new chardata(null, chardata2[i].level, chardata2[i].type, chardata2[i].sor, chardata2[i].eor);
 					}
 				} // end if AL (Arabic Letter)
 			} // end for each char
