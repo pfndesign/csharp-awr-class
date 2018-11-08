@@ -614,7 +614,7 @@ namespace rokhan.inc
             chardata nextchar;
             chardata thischar;
             Dictionary<int, int[]> arabicarr;
-            //string ass = Array.Exists(alfletter, element => element == Convert.ToInt32("1570")) ? "Yes, there is" : "No, there isn't";
+            //string test = Array.Exists(alfletter, element => element == Convert.ToInt32("1570")) ? "Yes, there is" : "No, there isn't";
             for (int i = 0; i < numchars; i++) {
                 thischar = chardata[i];
 				if (i > 0) {
